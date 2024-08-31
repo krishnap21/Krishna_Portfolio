@@ -1,23 +1,18 @@
- @media screen and (min-width: 2500px) {
-    #profile {
-        height: 83vh;
-         margin-bottom: 6rem;
-    }
-    
+@media screen and (min-width: 2500px) {
     .about-containers {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center; /* Centers the containers */
-        gap: 2rem; /* Adds space between the containers */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        grid-template-rows: repeat(2, auto); /* Two rows */
+        gap: 2rem; /* Space between grid items */
+        justify-items: center; /* Center items in the grid cells */
     }
-    
+
     #projects {
-        width: 48%; /* Each project takes up 48% of the container's width */
+        width: 100%; /* Each project takes up the entire width of its grid cell */
         height: fit-content;
         box-sizing: border-box;
         overflow: hidden;
-        margin-bottom: 2rem; /* Adds space below each container for spacing between rows */
-   }
+    }
 }
 
   
