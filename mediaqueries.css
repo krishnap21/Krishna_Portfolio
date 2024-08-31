@@ -1,22 +1,25 @@
-@media screen and (min-width: 2500px) {
+ @media screen and (min-width: 2500px) {
     #profile {
-      height: 83vh;
-      margin-bottom: 6rem;
+        height: 83vh;
+         margin-bottom: 6rem;
     }
-
+    
     .about-containers {
-      flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Centers the containers */
+        gap: 2rem; /* Adds space between the containers */
     }
-
+    
     #projects {
-      height: fit-content;
-      margin: 48rem;
-      max-width: fit-content;
-      box-sizing: border-box;
-      overflow: hidden;
+        width: 48%; /* Each project takes up 48% of the container's width */
+        height: fit-content;
+        box-sizing: border-box;
+        overflow: hidden;
+        margin-bottom: 2rem; /* Adds space below each container for spacing between rows */
+   }
+}
 
-    }
-  }
   
 
 
