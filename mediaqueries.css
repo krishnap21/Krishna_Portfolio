@@ -12,6 +12,8 @@
       height: fit-content;
       margin: 48rem;
       max-width: fit-content;
+      box-sizing: border-box;
+      overflow-wrap: break-word
 
     }
   }
