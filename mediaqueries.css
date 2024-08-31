@@ -1,4 +1,4 @@
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 2500px) {
     #profile {
       height: 83vh;
       margin-bottom: 6rem;
@@ -10,7 +10,8 @@
 
     #projects {
       height: fit-content;
-      margin: 55rem;
+      margin: 48rem;
+      max-width: fit-content;
 
     }
   }
