@@ -353,7 +353,7 @@ section {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   
   article {
@@ -375,15 +375,9 @@ section {
   
   
  /*PROJECTS SECTION*/
-
-
-#projects {
+ #projects {
     position: relative;
-    flex: 1 1 calc(50% - 2rem); /* Each project takes up 50% minus the gap */
-    box-sizing: border-box;
-    margin-bottom: 2rem; /* Space between rows */
-}
-
+ }
 
  .color-container {
     border: rgb(163,163,163);
