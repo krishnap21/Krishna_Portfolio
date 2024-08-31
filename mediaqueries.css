@@ -1,23 +1,23 @@
 @media screen and (min-width: 2500px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+
     .about-containers {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        gap: 1rem;
-        width: 100vw;
-        height: 100vh;
-        padding: 2rem;
-        box-sizing: border-box;
+      flex-wrap: wrap;
     }
 
     #projects {
-        width: 48%;
-        height: 48%;
-        box-sizing: border-box;
-        overflow: hidden;
-    }
-}
+      height: fit-content;
+      margin: 48rem;
+      max-width: fit-content;
+      overflow: hidden;
 
+    }
+    
+  }
+  
 
 
 @media screen and (max-width: 1400px) {
